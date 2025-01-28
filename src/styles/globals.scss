@@ -1,0 +1,52 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --slate-100: #f7f9fa;
+  --slate-200: #edeff0;
+  --slate-300: #e1e4e6;
+  --slate-400: #cbd1d4;
+  --slate-500: #b5bdc1;
+  --slate-600: #93a4ad;
+  --slate-700: #667f91;
+  --slate-800: #425d75;
+  --slate-900: #243d57;
+  --primary-100: #dfefff;
+  --primary-200: #b8e0ff;
+  --primary-300: #78c8ff;
+  --primary-400: #31adff;
+  --primary-500: #0692f1;
+  --primary-600: #0073ce;
+  --primary-700: #005ba7;
+  --primary-800: #024d8a;
+  --primary-900: #084172;
+  --error: #de4e4c;
+  --error-dark: #ab2c2a;
+  --pending: #ffbd20;
+  --pending-dark: #dd7302;
+  --success: #39a969;
+  --success-dark: #257046;
+  --process: #0692f1;
+  --process-dark: #005ba7;
+  --white: #fff;
+  --black: #303030;
+}
+
+  @import '@fontsource/prompt/300.css';
+  @import '@fontsource/prompt/400.css';
+  @import '@fontsource/prompt/500.css';
+  @import '@fontsource/prompt/600.css';
+  @import '@fontsource/prompt/700.css';
+  @import '@fontsource/prompt/800.css';
+
+  
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  font-family: 'Prompt', sans-serif;
+}
+
+body {
+  background-color: var(--white);
+}
